@@ -1,0 +1,159 @@
+.container{
+    width: 1920px;
+    font-family: "Railway";
+}
+
+.header{
+    background-image: url(../img/header-background.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 1024px;
+    min-height: 1024px;
+    width: 100%;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    padding: 30px 0 0 0;
+}
+
+.menu{
+    text-align: center;
+    padding: 30px 0 309px 776px;
+}
+
+.menu-li{
+    float: left;
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    color: white;
+}
+
+.arrow-right{
+    min-height:50px;
+    width:50px;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    transform: rotate(-45deg);
+    background: none;
+    float:left;
+    position: relative;
+    top: -80px;
+    left: 953px;
+}
+
+.arrow-left{
+    min-height:50px;
+    width:50px;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    transform: rotate(135deg);
+    background: none;
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+
+.slider-title{
+    text-align: center;
+    color: white;
+}
+
+.slider-title-2{
+    text-align: center;
+    color:white;
+}
+
+.slider-content{
+    color: white;
+    text-align: center;
+}
+
+.slider-button{
+    border: 1px solid #998675;
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 796px;
+    width: 100px;
+    float:left;
+    background-color: #998675;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.features:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: black;
+}
+
+.features-icon {
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+.features-title {
+  width: 100%;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.features-txt {
+  text-align: center;
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+}
+
+.waxom-title{
+    box-sizing: border-box;
+    clear: both;
+}
+
+.waxom-content{
+    clear: both;
+}
+
+.mobile devices{
+    background-image: url(../img/iPhone%20in%20hand.png);
+    background-repeat: no-repeat;
+}
+
+.sponsors{
+    background-image: url(../img/footer-background.png);
+    background-repeat: no-repeat;
+    padding: 125px ;
+    min-height: 400px;
+}
+
+.sponsors-img{
+    float: left;
+}
+
+.footer{
+    background-color: #191919;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-a{
+    text-decoration: none;
+}
+
+.footer-a-2{
+    text-decoration: none;
+    color: white;
+}
